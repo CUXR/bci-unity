@@ -1,3 +1,26 @@
+# BCI-Control Modifications
+
+## Setup:
+1. Clone the project using Git.  
+2. Open the project in Unity Hub → **Projects → Add project from disk**.  
+3. Unity Hub will automatically download the required packages.  
+   - The Unity version for this project is **2022.3.56f1**.  
+4. In the **Project panel** (bottom left), navigate to and double-click `Assets/XRI_Examples/Scenes/XRI_Examples_Main.unity` to load the main scene.  
+5. Locate the device simulator at  
+   `Assets/Samples/XR Interaction Toolkit/3.1.2/XR Device Simulator/XRDeviceSimulator/XR Device Simulator.prefab`,  
+   then drag it into the **Hierarchy panel**. This is a runtime GameObject that simulates XR input during play mode. 
+   Click the `▶️` icon to compile and run the game. Should be able to see **XR Simulated Device** pannel. 
+   
+   If you press `tab` and switch from the `HMD` mode to the `Controller` mode, you can see the simulated joystick on the screen. 
+
+## TODO:
+- [ ] Need to play around and understand how to interact with UI elements (click buttons, control knobs, pull rods, etc.).  
+- [ ] Need to understand how to modify the existing `XR Device Simulator` to simulate inputs from EEG data.  
+- [ ] Need to receive processed EEG data from localhost.  
+
+
+
+---
 # XR Interaction Toolkit Examples - Version 3.1.2
 
 ## Introduction
